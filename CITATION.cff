@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Muran Trus
+    given-names: Anastasia
+title: "Paper Analizer"
+version: 0.0.0-alpha
+identifiers:
+  - type: doi
+    value: x
+date-released: 2024-02-29

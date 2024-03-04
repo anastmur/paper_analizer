@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SwarmLab: a Matlab Drone Swarm Simulator</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>IEEE</publisher>
+				<availability status="unknown"><p>Copyright IEEE</p>
+				</availability>
+				<date type="published" when="2020-10-24">2020-10-24</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>Student Member, IEEE</roleName><forename type="first">Enrica</forename><surname>Soria</surname></persName>
+							<email>enrica.soria@epfl.ch</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Intelligent Systems (LIS)</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne (EPFL)</orgName>
+								<address>
+									<postCode>1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Member, IEEE</roleName><forename type="first">Fabrizio</forename><surname>Schiano</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Intelligent Systems (LIS)</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne (EPFL)</orgName>
+								<address>
+									<postCode>1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Senior Member, IEEE</roleName><forename type="first">Dario</forename><surname>Floreano</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Intelligent Systems (LIS)</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne (EPFL)</orgName>
+								<address>
+									<postCode>1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SwarmLab: a Matlab Drone Swarm Simulator</title>
+					</analytic>
+					<monogr>
+						<title level="m">2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</title>
+						<imprint>
+							<publisher>IEEE</publisher>
+							<date type="published" when="2020-10-24" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">03B7B97A995BEBA830C05C4AF922134B</idno>
+					<idno type="DOI">10.1109/iros45743.2020.9340854</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-01T19:04+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Swarms</term>
+					<term>Agent-Based Systems</term>
+					<term>Simulation and Animation</term>
+					<term>Aerial Systems: Applications</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Among the available solutions for drone swarm simulations, we identified a lack of simulation frameworks that allow easy algorithms prototyping, tuning, debugging and performance analysis. Moreover, users who want to dive in the research field of drone swarms often need to interface with multiple programming languages. We present SwarmLab, a software entirely written in MATLAB, that aims at the creation of standardized processes and metrics to quantify the performance and robustness of swarm algorithms, and in particular, it focuses on drones. We showcase the functionalities of SwarmLab by comparing two decentralized algorithms from the state of the art for the navigation of aerial swarms in cluttered environments, Olfati-Saber&apos;s and Vasarhelyi&apos;s. We analyze the variability of the inter-agent distances and agents&apos; speeds during flight. We also study some of the performance metrics presented, i.e. order, inter-and extra-agent safety, union, and connectivity. While Olfati-Saber&apos;s approach results in a faster crossing of the obstacle field, Vasarhelyi&apos;s approach allows the agents to fly smoother trajectories, without oscillations. We believe that SwarmLab is relevant for both the biological and robotics research communities, and for education, since it allows fast algorithm development, the automatic collection of simulated data, the systematic analysis of swarming behaviors with performance metrics inherited from the state of the art.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

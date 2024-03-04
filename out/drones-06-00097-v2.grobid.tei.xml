@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Novel Drone Design Using an Optimization Software with 3D Model, Simulation, and Fabrication in Drone Systems Research</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability status="unknown"><p>Copyright MDPI AG</p>
+				</availability>
+				<date type="published" when="2022-04-14">14 April 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ahmed.</forename><forename type="middle">O</forename><surname>Mohamedzain</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Huangshen</forename><surname>Chua</surname></persName>
+							<email>hs.chua@kdu.edu.my</email>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Mechatronics Engineering</orgName>
+								<orgName type="department" key="dep2">School of Engineering</orgName>
+								<orgName type="institution">UOW Malaysia KDU Penang Univer-sity College</orgName>
+								<address>
+									<addrLine>Jalan Anson</addrLine>
+									<postCode>10400</postCode>
+									<settlement>George Town</settlement>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kianmeng</forename><surname>Yap</surname></persName>
+							<email>kmyap@sunway.edu.my</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing and Information Sys-tems</orgName>
+								<orgName type="laboratory">Research Centre for Human-Machine Collaboration</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Engineering and Technology</orgName>
+								<orgName type="institution">Sunway University</orgName>
+								<address>
+									<addrLine>Bandar Sunway, Petaling Jaya</addrLine>
+									<postCode>47500</postCode>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pavithren</forename><surname>Uthayasurian</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Electrical and Electronics Engineering</orgName>
+								<orgName type="institution">University of Wollongong Ma-laysia KDU</orgName>
+								<address>
+									<addrLine>Glenmarie Campus, Shah Alam</addrLine>
+									<postCode>40150</postCode>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Teoh</forename><surname>Jiehan</surname></persName>
+							<idno type="ORCID">0000-0003-3766-8349</idno>
+							<affiliation key="aff3">
+								<orgName type="department">School of Electrical and Electronics Engineering</orgName>
+								<orgName type="institution">University of Wollongong Ma-laysia KDU</orgName>
+								<address>
+									<addrLine>Glenmarie Campus, Shah Alam</addrLine>
+									<postCode>40150</postCode>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Novel Drone Design Using an Optimization Software with 3D Model, Simulation, and Fabrication in Drone Systems Research</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Drones</title>
+						<title level="j" type="abbrev">Drones</title>
+						<idno type="eISSN">2504-446X</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">6</biblScope>
+							<biblScope unit="issue">4</biblScope>
+							<biblScope unit="page">97</biblScope>
+							<date type="published" when="2022-04-14">14 April 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E239CBA58D7B4E8F29F2C44788479D0C</idno>
+					<idno type="DOI">10.3390/drones6040097</idno>
+					<note type="submission">Received: 12 February 2022 Accepted: 11 March 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-01T19:04+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>UAV</term>
+					<term>polylactic acid</term>
+					<term>acrylonitrile styrene acrylate</term>
+					<term>acrylonitrile butadiene styrene</term>
+					<term>trade-off study</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper presents the design of a small size Unmanned Aerial Vehicle (UAV) using the 3DEXPERIENCE software. The process of designing the frame parts involves many methods to ensure the parts can meet the requirements while conforming to safety and industry standards. The design steps start with the selection of materials that can be used for the drone, which are polylactic acid (PLA), acrylonitrile styrene acrylate (ASA), and acrylonitrile butadiene styrene (ABS). The drone frame consists of four main parts, which are the center top cover (50 g), the side top cover (10 g), the middle cover (30 g), and the drone&apos;s arm (80 g). A simulation was carried out to determine the stress, displacement, and weight of the drone&apos;s parts. Additionally, a trade-off study was conducted to finalize the shapes of the parts and the various inputs based on their priorities. The outcome of this new design can be represented in design concepts, which involve the use of the snap hook function to assemble two body parts together, namely the middle cover and the center top cover, without the need of an additional fastener.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

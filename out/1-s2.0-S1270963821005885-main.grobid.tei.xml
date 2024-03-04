@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Simulation of airborne collision between a drone and an aircraft nose</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2021-08-30">30 August 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Xiaohua</forename><surname>Lu</surname></persName>
+							<email>luxiaohua@nuaa.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Civil Aviation</orgName>
+								<orgName type="institution">Nanjing University of Aeronautics and Astronautics</orgName>
+								<address>
+									<settlement>Nanjing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xinchao</forename><surname>Liu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Industrial Engineering</orgName>
+								<orgName type="institution">University of Arkansas</orgName>
+								<address>
+									<settlement>Fayetteville</settlement>
+									<country>United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yingchun</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Shanghai Aircraft Airworthiness Certification Center</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yulong</forename><surname>Li</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Aeronautics College</orgName>
+								<orgName type="institution">Northwestern Polytechnical University</orgName>
+								<address>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hongfu</forename><surname>Zuo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Civil Aviation</orgName>
+								<orgName type="institution">Nanjing University of Aeronautics and Astronautics</orgName>
+								<address>
+									<settlement>Nanjing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Simulation of airborne collision between a drone and an aircraft nose</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Aerospace Science and Technology</title>
+						<title level="j" type="abbrev">Aerospace Science and Technology</title>
+						<idno type="ISSN">1270-9638</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">118</biblScope>
+							<biblScope unit="page">107078</biblScope>
+							<date type="published" when="2021-08-30">30 August 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F1043D38E093630A758FDBAA2D400872</idno>
+					<idno type="DOI">10.1016/j.ast.2021.107078</idno>
+					<note type="submission">Received 10 February 2020 Received in revised form 19 August 2021 Accepted 23 August 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-01T19:04+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Collision simulation Test validation UAV Aircraft nose Safety evaluation Airworthiness</keywords>
+			</textClass>
+			<abstract>
+				<p>The usage of a large number of civil unmanned aerial vehicles (UAVs) has caused potential hazards to the safe operation of manned aircraft. In this paper, a full-size commercial aircraft nose and a typical UAV with the whole level were selected for collision test, by which the verified finite element (FE) models were applied to four representative regions of the nose for collision simulation. A 1,360 g UAV and a 1,800 g bird have collided with the nose respectively under the same conditions and the former caused more serious damage. The kinetic energy of UAV as well as the hardness of its major components plays a critical role in evaluating damage of the nose, and the greater the kinetic energy loss, the more serious the damage of the nose is in general. It was very possible that the battery of UAV would penetrate the skin to enter the inside of nose with high speed and cause explosion and fire. The flying posture of UAV has an effect on the nose damage and no penetration happened to the lower panel of the main windshield under various possible impact postures of UAV with a velocity of 152 m/s. The existing antibird strike airworthiness clauses concerning the aircraft nose as CCAR 25.571 are not suitable for the design of nose against UAV strike and are suggested to be improved with extensive research findings in the future, including the operational requirements of UAVs and the design guidelines for a UAV collision mitigation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

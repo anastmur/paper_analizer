@@ -1,0 +1,41 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/Apache-2.0",
+    "codeRepository": "git+https://github.com/anastmur/paper_analizer",
+    "downloadUrl": "https://github.com/anastmur/paper_analizer",
+    "issueTracker": "https://github.com/anastmur/paper_analizer/issues",
+    "name": "Paper Analizer",
+    "version": "0.0.1-alpha",
+    "description": "The code takes papers selected by the user and then: identifies how many figures there are in the papers, lists all the links found in the papers and generates a Word Cloud with the keywords.",
+    "applicationCategory": "Research",
+    "developmentStatus": "wip",
+    "keywords": [
+        "paper",
+        "research",
+        "keyword",
+        "figure",
+        "links",
+        "academia",
+        "scholar"
+    ],
+    "programmingLanguage": [
+        "Python 3"
+    ],
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "softwareRequirements": [
+        "Python 3",
+        "https://pypi.org/project/wordcloud/"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Anastasia",
+            "familyName": "Muran Trus",
+            "email": "anastasia.muran.trus@alumnos.upm.es"
+        }
+    ]
+}

@@ -2,3 +2,5 @@ out/fulltexts/*
 out/headers/*
 out/references/*
 src/__pycache__/
+list_of_links.txt
+n_of_figures.txt

@@ -17,6 +17,6 @@ def grobid_links(xml_out):
 
         p = root.find("./{http://www.tei-c.org/ns/1.0}text/{http://www.tei-c.org/ns/1.0}back/{http://www.tei-c.org/ns/1.0}div/{http://www.tei-c.org/ns/1.0}listBibl/{http://www.tei-c.org/ns/1.0}biblStruct/{http://www.tei-c.org/ns/1.0}monogr/{http://www.tei-c.org/ns/1.0}ptr")
         if p is not None:
-            links.append({xml_file : p.get('target')})
+            links.append(p.get('target'))
 
     return links

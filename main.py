@@ -17,17 +17,25 @@ bubbles_path = os.path.join(XML_OUT, BUBBLES_OUT)
 figures_path = os.path.join(XML_OUT, FIGURES_OUT)
 links_path = os.path.join(XML_OUT, LINKS_OUT)
 
-print(bubbles_path)
-print(figures_path)
-print(links_path)
-
 grobid_client = GrobidClient(config_path=CONFIG)
 grobid_client.process("processHeaderDocument", PAPERS, output=bubbles_path)
 grobid_client.process("processFulltextDocument", PAPERS, output=figures_path)
 grobid_client.process("processReferences", PAPERS, output=links_path)
 
-grobid_bubbles(xml_out=bubbles_path)
 num_figures = grobid_figures(xml_out=figures_path)
-print(num_figures)
+with open("n_of_figures.txt","w") as figures_file:
+    figures_file.write("Number of figures per paper:\n")
+    tot = 0
+    for paper, num in num_figures:
+        paper_name = paper.split(".")[0]
+        figures_file.write(f"{paper_name}: {num} figure(s)\n")
+        tot += num
+    figures_file.write(f"Total number of figures is: {tot}")
+
 all_links = grobid_links(xml_out=links_path)
-print(all_links)
+with open("list_of_links.txt","w") as links_file:
+    links_file.write("List of links:\n")
+    for link  in all_links:
+        links_file.write(f"{link}\n")
+
+grobid_bubbles(xml_out=bubbles_path)

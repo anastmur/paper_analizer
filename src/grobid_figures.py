@@ -16,6 +16,6 @@ def grobid_figures(xml_out):
         root = tree.getroot()
 
         n = len(root.findall("./{http://www.tei-c.org/ns/1.0}text/{http://www.tei-c.org/ns/1.0}body/{http://www.tei-c.org/ns/1.0}figure"))
-        n_of_figures.append({xml_file : n})
+        n_of_figures.append((xml_file, n))
 
     return n_of_figures

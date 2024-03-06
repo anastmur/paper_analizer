@@ -1,3 +1,4 @@
-out/fulltexts/*
-out/headers/*
-out/references/*
+out/fulltexts/
+out/headers/
+out/references/
+src/__pycache__/

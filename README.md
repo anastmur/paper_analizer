@@ -25,9 +25,12 @@ Dependencies can be installed by using [Poetry](https://python-poetry.org/). You
 
     poetry install
 
+Or install all dependencies with pip using requirements.txt in the root directory of the repository by running:
+
+    pip install -r requirements.txt
 
 ### Grobid
-PaperAnalizer connects to a Grobid Server to analize the papers, so you must install [Grobid 0.8.0](https://grobid.readthedocs.io/en/latest/). You should use one the available [Docker](https://www.docker.com/) images to run Grobid:
+PaperAnalizer connects to a Grobid Server to analize the papers, so you must install [Grobid 0.8.0](https://grobid.readthedocs.io/en/latest/). You should use one of the available [Docker](https://www.docker.com/) images to run Grobid:
 
 Full image:
 [https://hub.docker.com/r/grobid/grobid](https://hub.docker.com/r/grobid/grobid)
@@ -44,7 +47,7 @@ Or:
 
     docker run --rm --init --ulimit core=0 -p 8070:8070 lfoppiano/grobid:0.8.0
 
-Depending on which images you have downloaded.
+Depending on which image you have downloaded.
 
 ## How to use
 ### Steps

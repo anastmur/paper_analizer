@@ -17,6 +17,8 @@
 
 ## Introduction
 **PaperAnalizer** takes research papers an processes them, creating a word cloud based on key words that can be found in the abstract, a list of all the links that can be found in the selected papers and a file that shows the number of figures per paper and the sum of all of them.
+
+A more thorough explanation of the things the code does can be found in the **rationale.md** file.
 ## Requirements
 ### Python
 The code runs on **Python 3.10^**, so it must be installed in the system to be able to use PaperAnalizer.

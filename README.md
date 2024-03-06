@@ -1,5 +1,7 @@
 # PaperAnalizer
 [![DOI](https://zenodo.org/badge/765249347.svg)](https://zenodo.org/doi/10.5281/zenodo.10778312)
+[![Python application](https://github.com/anastmur/paper_analizer/actions/workflows/python-app.yml/badge.svg)](https://github.com/anastmur/paper_analizer/actions/workflows/python-app.yml)
+[![Documentation Status](https://readthedocs.org/projects/paper-analizer/badge/?version=latest)](https://paper-analizer.readthedocs.io/en/latest/?badge=latest)
 
 ## Table of Contents
 - [PaperAnalizer](#paperanalizer)
